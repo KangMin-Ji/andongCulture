@@ -1,0 +1,175 @@
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+}
+a:focus, button:focus {
+  outline-width: 2px !important;
+  outline-style: dotted !important;
+  outline-color: #52a17d !important;
+  }
+/* a:focus, footer button:focus {
+  outline-width: 2px !important;
+  outline-style: dotted !important;
+  outline-color: #000 !important;
+}
+button:focus{
+  outline-width: 2px !important;
+  outline-style: dotted !important;
+  outline-color: #fff !important;
+} */
+.slick-slide:focus { outline: none; }
+
+.main_vis .banner_con .txt_wrap {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.main_vis .txt_wrap strong {
+  display: block;
+  font-weight: 700;
+}
+
+.main_vis .txt_wrap p span {
+  display: block;
+  font-size: 30px;
+}
+
+.section_wrap .main_title {
+  font-size: 25px;
+  color: #1A1B1D;
+  font-weight: 700;
+}
+
+.section_wrap .main_title span {
+  font-weight: 400;
+  margin-left: 16px;
+}
+
+.section_2 .section_2_first .latest_wrap {
+  width: 665px;
+  background: #fff;
+  padding: 29px 30px 35px;
+  box-shadow: 3px 3px 5px -2px rgb(0 0 0 / 20%);
+  position: relative;
+}
+
+.section_2 .latest_wrap .main_title {
+  padding-bottom: 14px;
+}
+
+.section_2 .section_2_first .latest_ul {
+  height: 235px;
+  border-top: 1px solid #ADADAD;
+  border-bottom: 1px solid #ADADAD;
+}
+
+.section_2 .section_2_first .latest_ul li.latest {
+  height: 78px;
+  border-bottom: 1px solid #CECECE;
+}
+
+.section_2 .section_2_first .latest_ul li.latest:last-child {
+  border-bottom: 0;
+}
+
+.section_2_first li.latest .date {
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 112px;
+  text-align: center;
+  color: #1A1B1D;
+}
+
+.section_2_first li.latest .date strong {
+  display: block;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.section_2_first li.latest .date strong span {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.section_2_first li.latest a{
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+.section_2_first li.latest p.latest_txt {
+  width: 490px;
+  padding: 11px 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #646464;
+}
+
+.section_2_first li.latest p.latest_txt .latest_small {
+  font-size: 16px;
+  font-weight: 200;
+  color: #646464;
+  display: block;
+  margin-top: 10px;
+}
+.section_2_first li.latest a p.latest_txt{
+  display: block;
+  height: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.section_2_first li.latest p.latest_txt:hover,
+.section_2 .section_2_second .latest_ul .latest .latest_txt p:hover {
+  text-decoration: underline;
+
+}
+.section_2 .latest_btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section_2 .latest_btn a {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+.section_2 .latest_btn a::before,
+.section_2 .latest_btn a::after {
+  content: "";
+  width: 13px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+}
+
+.section_2 .latest_btn a::before {
+  margin-left: -5px;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+.section_2 .latest_btn a::after {
+  margin-left: -5px;
+  margin-top: 3px;
+  transform: rotate(-45deg);
+}
