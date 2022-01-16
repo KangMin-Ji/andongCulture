@@ -477,6 +477,7 @@
   color: #646464;
   font-size: 18px;
   font-weight: 700;
+  padding: 5px 0;
 }
 
 .section_1 .portfolio .portfolio_bottom {
@@ -489,13 +490,18 @@
   width: 30px;
   height: 30px;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 50%;
   display: inline-block;
   vertical-align: top;
+  position: relative;
 }
 
 .section_1 .portfolio .portfolio_bottom .profile_img img {
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .section_1 .portfolio .portfolio_bottom .profile_name {

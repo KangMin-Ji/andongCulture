@@ -55,14 +55,6 @@ $(document).ready(function () {
         click = false;
       }
     });
-    // $('header .gnb_btn').focusin(function() {
-    //   $('header, header .gnb_btn button, header .menu_all_wrap, header .menu_all_bg').addClass('on');
-    //   menuAllW.stop().animate({
-    //     opacity: 1,
-    //   });
-    //   $('header .gnb_btn .blind').html('전체메뉴닫기');
-    //   click = true;
-    // });
     $('header .menu_all_wrap .focus_out').focusout(function () {
       $('header, header .gnb_btn button, header .menu_all_wrap, header .menu_all_bg').removeClass('on');
         menuAllW.stop().animate({
@@ -91,13 +83,6 @@ $(document).ready(function () {
         click2 = false;
       }
     });
-    // $('.quick_menu button.quick_button').focusout(function() {
-    //   quickMenu.removeClass('on');
-    //     $('.quick_menu button.quick_button .blind').html('퀵메뉴 열기');
-    //     click2=false;
-    // });
-
-
     //main_quick
 
     $('.main_quickT').mouseenter(function () {
@@ -142,7 +127,7 @@ $(document).ready(function () {
       prevArrow: $('.section_1 .btn_wrap .prev'),
       nextArrow: $('.section_1 .btn_wrap .next'),
       autoplay: true,
-      autoplaySpeed: 1500,
+      autoplaySpeed: 2000,
       // accessibility: false,
     });
     var click3 = false;
