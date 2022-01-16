@@ -714,7 +714,10 @@
   background-color: #52A17D;
   line-height: 50px;
 }
-
+.section_2 .section_2_second .latest_ul .view_more a{
+  display: block;
+  height: 100%;
+}
 .section_2 .section_2_second .latest_ul.instructor .latest .end_date .end_txt {
   background-color: #517f7e;
 }

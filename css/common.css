@@ -7,21 +7,21 @@
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
 }
-a:focus, button:focus {
+a:focus, button:focus, footer .footer_top .inner button:focus {
   outline-width: 2px !important;
-  outline-style: dotted !important;
-  outline-color: #52a17d !important;
-  }
-/* a:focus, footer button:focus {
-  outline-width: 2px !important;
-  outline-style: dotted !important;
+  outline-style: solid !important;
+  /* outline-color: #52a17d !important; */
+  /* outline-color: #5267a1 !important; */
   outline-color: #000 !important;
-}
-button:focus{
+  /* outline-color: rgb(233, 14, 14) !important; */
+  }
+
+.in_quick a:focus, button:focus{
   outline-width: 2px !important;
-  outline-style: dotted !important;
+  outline-style: solid !important;
   outline-color: #fff !important;
-} */
+  /* outline-color: rgb(233, 14, 14) !important; */
+} 
 .slick-slide:focus { outline: none; }
 
 .main_vis .banner_con .txt_wrap {
