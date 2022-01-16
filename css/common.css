@@ -108,8 +108,8 @@ a:focus, button:focus, footer .footer_top .inner button:focus {
 .section_2_first li.latest p.latest_txt {
   width: 490px;
   padding: 11px 0;
-  display: inline-block;
-  vertical-align: top;
+  /* display: inline-block;
+  vertical-align: top; */
   font-size: 18px;
   font-weight: 400;
   text-overflow: ellipsis;
@@ -124,13 +124,6 @@ a:focus, button:focus, footer .footer_top .inner button:focus {
   color: #646464;
   display: block;
   margin-top: 10px;
-}
-.section_2_first li.latest a p.latest_txt{
-  display: block;
-  height: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .section_2_first li.latest p.latest_txt:hover,
 .section_2 .section_2_second .latest_ul .latest .latest_txt p:hover {
