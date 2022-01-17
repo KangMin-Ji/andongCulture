@@ -72,6 +72,11 @@ $(document).ready(function () {
       $('.quick_menu button.quick_button .blind').html('퀵메뉴 닫기');
       click2 = true;
     });
+    $('.quick_menu .kakao').focusout(function () {
+      quickMenu.removeClass('on');
+      $('.quick_menu button.quick_button .blind').html('퀵메뉴 닫기');
+      click2 = false;
+    });
     $('.quick_menu button.quick_button').click(function () {
       if (click2 === false) {
         quickMenu.addClass('on');
